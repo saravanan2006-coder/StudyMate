@@ -85,13 +85,3 @@ The app will automatically open in your default web browser (usually at `http://
 
 ---
 
-## 🔒 Security Best Practices
-- **.gitignore:** Create a `.gitignore` file and add the following lines to prevent uploading secrets to GitHub:
-  ```text
-  venv/
-  .env
-  __pycache__/
-  ```
-- **Environment Variables:** Always use the `.env` file for API keys instead of writing them directly in the code.
-
----
