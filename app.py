@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 
 # 1. Setup and Configuration
-st.set_page_config(page_title="Study Mate", page_icon="📚")
+st.set_page_config(page_title="EC Prep", page_icon="📚")
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 
@@ -16,7 +16,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # 2. UI Header
-st.title("🎓 Study Mate")
+st.title("🎓 EC Prep")
 st.info("Upload your notes to get started.")
 
 # 3. File Upload Section

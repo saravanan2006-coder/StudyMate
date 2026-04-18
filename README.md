@@ -1,7 +1,7 @@
 
 ***
 
-# Study Mate 📚
+# EC Prep 📚
 
 An AI-powered web application built with Python and Streamlit to help students summarize notes and generate practice quizzes from PDF materials.
 
