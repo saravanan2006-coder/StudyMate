@@ -61,7 +61,7 @@ if uploaded_file is not None:
             if st.button("❓ Create Practice Quiz", use_container_width=True):
                 with st.spinner("Creating Questions..."):
                     model = genai.GenerativeModel('gemini-2.5-flash')
-                    prompt = f"Based on these notes, create 10 Multiple Choice Questions (MCQs) for a exam. Include the correct answers at the very bottom: {text[:15000]}"
+                    prompt = f"Based on these notes, create a wise and important 10 Multiple Choice Questions (MCQs) for a exam. Include the correct answers at the very bottom: {text[:15000]}"
                     response = model.generate_content(prompt)
                     st.markdown("---")
                     st.subheader("✍️ Practice Quiz")
